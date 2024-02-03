@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="play.css">
+    <script src="script.js"></script>
+    
+</head>
+<body>
+    
+    <article class="game">
+
+        <img class="image scissor" src="scissor.png" alt="scissor" onclick="onImageClick(this)">
+        <img class="image rock" src="obsidian.png" alt="rock" onclick="onImageClick(this)">
+        <img class="image paper" src="file.png" alt="paper" onclick="onImageClick(this)">
+        
+
+        <!-- <div class="loader"></div>   -->
+        <div id="result">
+            <p id="won" style="display: none;">You won!</p>
+            <p id="lost" style="display: none;">You lost!</p>
+            <p id="tie" style="display: none;">It's a tie!</p>
+        </div>
+    </article>
+</body>
+</html> 
